@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Page</title>
+    <link rel="stylesheet" href="form_page.css" />
+    <!-- <link rel="stylesheet" href="newformstyle.css"> -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <script src="forpage.js"></script>
+  </head>
+  <body>
+    <div id="navbar_form">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a href="../diff_pages/Internationalization.html">Internationalization</a>
+        <a href="../diff_pages/Resource_managment.html">Resource Management</a>
+        <a href="../diff_pages/Marketing_and_Branding.html">Marketing And Branding</a>
+        <a href="../diff_pages/Policy_and_process.html">Policy and Process</a>
+        <a href="../diff_pages/Focus_area.html">Focus Area(s)</a>
+      </div>
+      <span onclick="openNav()" style="font-size: 25px">&#9776;</span>
+      <p class="navbar_heading">
+        Directorate Of <br />International Collaborations
+      </p>
+    </div>
+    <div id="form">
+      <div class="container">
+          <header>Form</header>
+  
+          <form action="#">
+              <div class="form first">
+                  <div class="details personal">
+  
+  
+                      <div class="fields">
+                          <div class="input-field">
+                              <label>Name of University with whom MOU is signed</label>
+                              <input type="text" placeholder="Enter name of organization" required>
+                          </div>
+  
+                          <div class="input-field">
+                              <label>Date of signing</label>
+                              <input type="date" placeholder="Enter birth date" required>
+                          </div>
+  
+                          <div class="input-field">
+                              <label>Department</label>
+                              <select required>
+                                  <option disabled selected>Select Department</option>
+                                  <option>Department of computer science and Engineering</option>
+                                  <option>Department of electical and Engineering</option>
+                                  <option>Department of Civil Engineering</option>
+                                  <option>Department of Business Studies</option>
+                                  <option>Department of Commerce</option>
+                                  <option>Department of Mechanical Enginnering</option>
+                              </select>
+                          </div>
+  
+                          <div class="input-field">
+                              <label>Total number of activities</label>
+                              <input type="number" placeholder="Enter number of activities" required>
+                          </div>
+  
+                          <div class="input-field">
+                              <label>No. of students/Teacher participated under MoU</label>
+                              <input type="number" placeholder="No. of students/Teacher participated under MoU" required>
+                          </div>
+  
+                          <div class="input-field">
+                              <label>Does the MoU is with QS</label>
+                              <select required>
+                                  <option disabled selected>Select</option>
+                                  <option>Yes</option>
+                                  <option>No</option>
+  
+                              </select>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="details ID">
+  
+                      <div class="fields">
+                          <div class="input-field">
+                              <label>QS Rank Of University</label>
+                              <input type="Number" placeholder="Enter Rank" required>
+                          </div>
+  
+                          <div class="input-field">
+                              <label>Duration of MoU</label>
+                              <input type="number" placeholder="Enter duration in years" required>
+                          </div>
+  
+                          <div class="input-field">
+                              <label>Link of MoU copy</label>
+                              <input type="url" placeholder="Enter issued authority" required>
+                          </div>
+  
+                          <div class="input-field">
+                              <label>Link of all activities under MoU in PDF</label>
+                              <input type="file" placeholder="upload" required>
+                          </div>
+  
+                          <div class="input-field">
+                              <label>Comments</label>
+                              <input type="text" placeholder="Enter your comments" required>
+                              <!-- <textarea name="comments" id="" cols="10" rows="2"></textarea> -->
+                          </div>
+                      </div>
+  
+                      <button class="nextBtn">
+                          <span class="btnText">Next</span>
+                          <i class="uil uil-navigator"></i>
+                      </button>
+                  </div> 
+              </div>
+  
+              <div class="form second">
+                  <div class="details address">
+                      <span class="title">Address Details</span>
+  
+                      <div class="fields">
+                          <div class="input-field">
+                              <label>Address Type</label>
+                              <input type="text" placeholder="Permanent or Temporary" required>
+                          </div>
+  
+                          <div class="input-field">
+                              <label>Nationality</label>
+                              <input type="text" placeholder="Enter nationality" required>
+                          </div>
+  
+                          <div class="input-field">
+                              <label>State</label>
+                              <input type="text" placeholder="Enter your state" required>
+                          </div>
+  
+                          <div class="input-field">
+                              <label>District</label>
+                              <input type="text" placeholder="Enter your district" required>
+                          </div>
+  
+                          <div class="input-field">
+                              <label>Block Number</label>
+                              <input type="number" placeholder="Enter block number" required>
+                          </div>
+  
+                          <div class="input-field">
+                              <label>Ward Number</label>
+                              <input type="number" placeholder="Enter ward number" required>
+                          </div>
+                      </div>
+                  </div>
+  
+                  <div class="details family">
+                      <span class="title">Family Details</span>
+  
+                      <div class="fields">
+                          <div class="input-field">
+                              <label>Father Name</label>
+                              <input type="text" placeholder="Enter father name" required>
+                          </div>
+  
+                          <div class="input-field">
+                              <label>Mother Name</label>
+                              <input type="text" placeholder="Enter mother name" required>
+                          </div>
+  
+                          <div class="input-field">
+                              <label>Grandfather</label>
+                              <input type="text" placeholder="Enter grandfther name" required>
+                          </div>
+  
+                          <div class="input-field">
+                              <label>Spouse Name</label>
+                              <input type="text" placeholder="Enter spouse name" required>
+                          </div>
+  
+                          <div class="input-field">
+                              <label>Father in Law</label>
+                              <input type="text" placeholder="Father in law name" required>
+                          </div>
+  
+                          <div class="input-field">
+                              <label>Mother in Law</label>
+                              <input type="text" placeholder="Mother in law name" required>
+                          </div>
+                      </div>
+  
+                      <div class="buttons">
+                          <div class="backBtn">
+                              <i class="uil uil-navigator"></i>
+                              <span class="btnText">Back</span>
+                          </div>
+                          
+                          <button class="sumbit">
+                              <span class="btnText">Submit</span>
+                              <i class="uil uil-navigator"></i>
+                          </button>
+                      </div>
+                  </div> 
+              </div>
+          </form>
+      </div>
+    </div>
+      <script src="forpage.js"></script>
+
+  </body>
+</html>
